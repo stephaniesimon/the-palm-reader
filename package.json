@@ -1,0 +1,29 @@
+{
+  "name": "the-palm-reader-master",
+  "version": "1.0.0",
+  "description": "An app to identify palm oil derivatives in ingredient lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephaniesimon/the-palm-reader.git"
+  },
+  "author": "Stephanie Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephaniesimon/the-palm-reader/issues"
+  },
+  "homepage": "https://github.com/stephaniesimon/the-palm-reader#readme",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "hapi": "^13.5.0",
+    "inert": "^4.0.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "webpack": "^1.13.1"
+  }
+}
