@@ -2,7 +2,7 @@
   "name": "the-palm-reader-master",
   "version": "1.0.0",
   "description": "An app to identify palm oil derivatives in ingredient lists",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
