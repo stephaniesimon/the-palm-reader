@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class TextArea extends React.Component {
-  render() {
-    return <div>
-      <textarea className="text-area" placeholder="Paste ingredient list here"></textarea>
-      </div>
+function TextArea(props){
+
+  function runValidation() {
+    return alert("I've been pressed!");
   }
+
+    return <div>
+      <textarea placeholder="Paste ingredient list here"></textarea>
+      <button onClick={runValidation}>Submit!</button>
+      </div>
 }
 
 ReactDOM.render(<TextArea/>, document.getElementById('text-area'));
