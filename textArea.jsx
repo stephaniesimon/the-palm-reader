@@ -8,8 +8,13 @@ function TextArea(props){
   }
 
     return <div>
-      <textarea placeholder="Paste ingredient list here"></textarea>
-      <button onClick={runValidation}>Submit!</button>
+      <div className="header-section">
+        <h1 className="header-section__title">The Palm Reader</h1>
+      </div>
+      <div className="ingredient-input-section">
+        <textarea className="ingredient-input-section__text-area" placeholder="Paste ingredient list here"></textarea>
+        <button className="ingredient-input-section__button" onClick={runValidation}>Submit!</button>
+      </div>
       </div>
 }
 
