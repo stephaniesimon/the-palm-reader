@@ -22,6 +22,7 @@
     "babel-preset-react": "^6.11.1",
     "hapi": "^13.5.0",
     "inert": "^4.0.1",
+    "json-loader": "^0.5.4",
     "react": "^15.2.1",
     "react-dom": "^0.14.7",
     "webpack": "^1.13.1"
